@@ -58,6 +58,7 @@ MonoM {
     init { arg prefix_, rot_;
         prefix = prefix_;
         rot = rot_;
+        this.deviceList();
     }
 
     deviceList {
